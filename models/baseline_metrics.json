@@ -1,0 +1,20 @@
+{
+    "model": "Logistic Regression",
+    "features": [
+        "TransactionAmt",
+        "TransactionAmt_log",
+        "TransactionDT",
+        "TransactionHour",
+        "ProductCD",
+        "card1",
+        "card2"
+    ],
+    "training_samples": 472432,
+    "testing_samples": 118108,
+    "fraud_precision": 0.08581818181818182,
+    "fraud_recall": 0.6281151705782725,
+    "fraud_f1_score": 0.15100485705144984,
+    "accuracy": 0.7528448538625665,
+    "roc_auc": 0.7314527898249618,
+    "average_precision": 0.10390712147439884
+}
