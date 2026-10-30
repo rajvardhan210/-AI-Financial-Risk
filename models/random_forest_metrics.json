@@ -1,0 +1,20 @@
+{
+    "model": "Random Forest",
+    "features": [
+        "TransactionAmt",
+        "TransactionAmt_log",
+        "TransactionDT",
+        "TransactionHour",
+        "ProductCD",
+        "card1",
+        "card2"
+    ],
+    "training_samples": 472432,
+    "testing_samples": 118108,
+    "fraud_precision": 0.9063245823389021,
+    "fraud_recall": 0.3675296394870554,
+    "fraud_f1_score": 0.5229815803064211,
+    "accuracy": 0.9765384224607986,
+    "roc_auc": 0.8992320298527565,
+    "average_precision": 0.5955823191556217
+}

@@ -1,0 +1,23 @@
+{
+    "model": "XGBoost",
+    "features": [
+        "TransactionAmt",
+        "TransactionAmt_log",
+        "TransactionDT",
+        "TransactionHour",
+        "ProductCD",
+        "card1",
+        "card2"
+    ],
+    "training_samples": 472432,
+    "testing_samples": 118108,
+    "negative_training_examples": 455902,
+    "positive_training_examples": 16530,
+    "scale_pos_weight": 27.580278281911674,
+    "fraud_precision": 0.13215745321574532,
+    "fraud_recall": 0.7432857488507137,
+    "fraud_f1_score": 0.22441376287530135,
+    "accuracy": 0.8202153960781657,
+    "roc_auc": 0.8648737898734165,
+    "average_precision": 0.2861940064755552
+}
